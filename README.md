@@ -1,26 +1,33 @@
 # Simple Login Page
 
-This is a simple login page created with HTML and styled using Bootstrap. The login functionality is built in PHP and connects to a MySQL database to validate user credentials.
+![GitHub repo size](https://img.shields.io/github/repo-size/chinmay3775/Simple-Login-page) ![GitHub issues](https://img.shields.io/github/issues/chinmay3775/Simple-Login-page) ![GitHub stars](https://img.shields.io/github/stars/chinmay3775/Simple-Login-page?style=social)
+
+A simple and responsive login page built with HTML, CSS, and PHP, styled using Bootstrap. This project includes a backend script for user authentication via MySQL.
+
+## Table of Contents
+- [Live Demo](#live-demo)
+- [Important Note](#important-note)
+- [Features](#features)
+- [Installation](#installation)
+- [Project Structure](#project-structure)
+- [License](#license)
+- [Author](#author)
 
 ## Live Demo
 The live preview of this page is available here:
 [Simple Login Page Demo](https://chinmay3775.github.io/Simple-Login-page/login.html)
 
-### Important Note
+## Important Note
 The login functionality on this page **will not work** in the live demo, as the PHP code requires a connection to a database hosted locally on the developer's laptop. For security reasons, the database is not publicly accessible.
 
 ## Features
-- Simple, responsive login form design
-- HTML and Bootstrap for quick styling
-- Backend PHP code for authenticating users
+- **Responsive Design**: Utilizes Bootstrap for a mobile-friendly interface.
+- **User Authentication**: Simple PHP script for validating user credentials against a MySQL database.
+- **Secure Password Handling**: Implements password hashing for security.
+- **User-Friendly Error Messages**: Clear feedback for invalid login attempts.
 
-## Files in Repository
-- `login.html`: Main HTML file for the login form
-- `css/bootstrap.css`: Bootstrap CSS for responsive styling
-- `login.php`: PHP backend script to process login requests (only functional on a local server with database access)
-
-## How to Use Locally
-If you’d like to run this project on your local machine with full functionality, follow these steps:
+## Installation
+To run this project on your local machine with full functionality, follow these steps:
 
 1. **Clone the Repository**
    ```bash
